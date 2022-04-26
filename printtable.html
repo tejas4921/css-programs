@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript">
+function table()
+{
+ no=eval(document.getElementById("txtno").value)
+ for(i=1;i<=10;i++)
+ {
+  document.write(i*no+"<br>")
+ }
+ }
+</script>
+</head>
+<body>
+<h2 align="center">Print Table</h2><hr><hr>
+<form>
+Enter Number:-
+<input type="text" id="txtno"><br><br>
+<center><input type="button" id="btntable" value="Show Table" onclick="table()"></center>
+</form>
+</body>
+</html>
